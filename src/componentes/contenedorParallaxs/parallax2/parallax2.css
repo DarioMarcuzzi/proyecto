@@ -1,0 +1,85 @@
+.bgimg-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.furniture{
+  position: absolute;
+  display: flex;
+  background-color: aquamarine;
+  width: 90%;
+  height: 60%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  
+}
+
+.furnitureBtn{
+
+}
+/* .furnitureImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+.furnitureImg{
+  
+  border: 1px solid #999;
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background-image: url("https://www.lamansiondelasideas.com/wp-content/uploads/2022/06/Decoracio%CC%81n-patio-pequen%CC%83o.jpg.webp");
+  background-size: cover;
+  }
+.furnitureImg {
+  width: 100%;
+}
+@media all and (min-width: 500px) and (max-width: 1000px)
+{  
+.furnitureImg{
+  
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background-image: url("https://www.lamansiondelasideas.com/wp-content/uploads/2022/06/Decoracio%CC%81n-patio-pequen%CC%83o.jpg.webp");
+  background-size: cover;
+  
+  }
+}
+.furnitureImg {
+   width:100%;
+}
+.furnitureBtn{
+  display: flex;
+  height: 100%;
+  background-color: rgb(211, 241, 205);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.furnitureBtn h1 {
+  color: rgb(78, 82, 83);
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+.furnitureBtn p {
+  color: gray;
+}
+
+.furnitureBtn button{
+  display: flex;
+  justify-content: end;
+  color: rgba(0, 0, 0, 0.65);
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  position: relative;
+}

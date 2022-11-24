@@ -1,0 +1,187 @@
+body,
+html {
+  margin: 0;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.bgimg-1{
+  background-image: url("../../../../media/imagen1.jpg");
+  
+  min-height: 100vh;
+  
+}
+.bgimg-2{
+  background-image: url("../../../../media/imagen2.jpg");
+  
+  min-height: 80vh;
+  
+}
+.bgimg-3{
+  background-image: url("../../../../media/imagen3.jpg");
+  
+  min-height: 100vh;
+  
+}
+
+
+.caption{
+  position:absolute;
+  left: 15%;
+  top: 15%;
+  width: 70%;
+  height: 70%;
+  background-color: rgba(255, 247, 247, 0.618);
+  justify-content: space-between;
+  text-align: center;
+  overflow: hidden;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr) 0fr;
+  grid-template-rows: repeat(2, 2fr) repeat(3, 0fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  
+  
+
+
+
+}
+
+.caption1 {
+  display: flex;
+  flex-direction: column;
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: rgb(241, 237, 192);  
+  border: 1px solid rgba(202, 202, 202, 0.701);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+
+  
+
+}
+
+.caption1 h1 {
+  color: rgb(78, 82, 83);
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+.caption1 p {
+  color: gray;
+}
+
+.caption1 button{
+  display: flex;
+  justify-content: end;
+  color: rgba(0, 0, 0, 0.65);
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  position: relative;
+}
+
+.caption2{
+  grid-area: 2 / 1 / 3 / 2;
+  background-image: url("https://www.hogarmania.com/archivos/202206/plantas-para-refrescar-el-hogar-668x400x80xX-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border: 1px solid rgba(202, 202, 202, 0.701);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  
+}
+.caption3 {
+  grid-area: 1 / 2 / 2 / 3;
+  background-color: rgb(2, 58, 58);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR79UjeyT7UDJxaFSMC1DpxAcpBP1MaqcS8Pwi2W2Bn0m29SW4IZ_GR0YnW3qIbYgChwtA&usqp=CAU");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border: 1px solid rgba(202, 202, 202, 0.701);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  
+ 
+}
+.caption4{
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: aqua;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCAdlKPZXtqv9233cCBkg6V1Qq-sbn2DO1_TWOaS23eZO_US9Bv7n3WA8kDUMDcjflY-c&usqp=CAU");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border: 1px solid rgba(202, 202, 202, 0.701);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+.caption5{
+  grid-area: 1 / 3 / 2 / 4;
+  background-color: rgb(84, 91, 91);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkuxKGWLKOXqz6eG36yc2mtoJQiPGzGqysB-0FIk3Jt50H-yz6-0tEOnqVrwJfQGzeHI0&usqp=CAU");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border: 1px solid rgba(202, 202, 202, 0.701);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.caption6{
+  grid-area: 2 / 3 / 3 / 4;
+  background-color: rgb(0, 50, 50);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgLteW3aBdZKYxOfXMQrQl4EXIVgopTi484pW8v6CC31HNDuTyDWTx1QlHfPOcHAHFNJM&usqp=CAU");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border: 1px solid rgba(202, 202, 202, 0.701);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.caption7{
+  grid-area: 1 / 4 / 2 / 5;
+  background-color: rgb(94, 143, 143);
+  background-image: url("https://images.hola.com/imagenes/estar-bien/20180319121774/plantas-interior-energia-positiva/0-551-109/plantas-energia-positiva-casa-t.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border: 1px solid rgba(202, 202, 202, 0.701);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.caption8
+{
+  grid-area: 2 / 4 / 3 / 5;
+  background-color: rgb(48, 62, 62);
+  background-image: url("https://www.elmueble.com/medio/2022/07/19/espatifilo-una-planta-de-interior-para-casas-con-poca-luz-ca8b6433-800x1200_138c5494_800x1200.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  
+  border: 1px solid rgba(202, 202, 202, 0.701);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+.section{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.200px;
+}
