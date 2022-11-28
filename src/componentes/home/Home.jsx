@@ -2,6 +2,8 @@ import React from 'react';
 import { Parallax } from "../contenedorParallaxs/parallax1/Parallax.jsx"
 import { Parallax2 } from "../contenedorParallaxs/parallax2/Parallax2.jsx"
 import { Parallax3 } from "../contenedorParallaxs/parallax3/Parallax3.jsx"
+import { Maps} from "../maps/Maps.jsx"
+import { Footer } from '../footer/Footer.jsx';
 import Nav from '../nav/Nav';
 import "./home.css"
 import { FaArrowRight } from "react-icons/fa";
@@ -20,9 +22,10 @@ const home = () => {
             <h1>Retro: Old is New Again</h1>  
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry' Lorem Ipsum is simply dummy text of the printing and </p>
           <div className='btn-arrow'>
-            <button className='btn-nav'>discover this trend</button>
-            <FaArrowRight/>
+            <button className='btn-nav'>discover this trend <FaArrowRight/></button>
+            
           </div>
+          
         </div>
       </div>
       
@@ -34,6 +37,12 @@ const home = () => {
       </div>
       <div> 
         <Parallax3 />
+      </div>
+      <div>
+        <Maps/>
+      </div>
+      <div>
+      <Footer/>
       </div>
 
 

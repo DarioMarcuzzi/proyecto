@@ -3,3 +3,65 @@
   justify-content: center;
   align-items: center;
 }
+.garden{
+  position: absolute;
+  display: flex;
+  
+  width: 90%;
+  height: 60%;
+  
+  justify-content: space-between;
+  gap: 10px;
+
+  
+}
+.pond,
+.parasol,
+.stove{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  
+  width: 33.3%;
+  
+}
+
+
+
+.pondImg,
+.parasolImg,
+.stoveImg{
+  display: flex;
+  background-size: cover;
+  width: 100%;
+  height: 60%;
+  border-bottom: 1px solid black;
+
+}
+.pondImg{
+  background-image: url("https://www.guiadejardineria.com/wp-content/uploads/2014/04/estanques-en-el-jardin-1.jpg");
+}
+.parasolImg{
+  background-image: url("https://casaydiseno.com/wp-content/uploads/2015/04/sombrilla-mesa-sillas-acero-ideas.jpg");
+}
+.stoveImg{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfZI4WYlEuaHoVSO8lCc56uieEPZ67qDD7Vg&usqp=CAU");
+}
+
+.btnPond,
+.btnParasol,
+.btnStove
+{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+ 
+}
+
+
+.parasol{
+  background-color: rgb(29, 47, 47);
+}
+.stove{
+  background-color: rgb(0, 118, 118);
+}

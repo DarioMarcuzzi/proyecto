@@ -33,7 +33,17 @@
 
 }
 .btn-nav{
+  display: flex;
+  justify-content: center;
   background: none;
   border: 0;
   color: inherit;
+  white-space: normal;
+
+}
+
+.btn-nav:hover{
+  /* border-bottom: 1px solid black; */
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }

@@ -11,7 +11,9 @@ export function Parallax2  () {
             <div className='furnitureBtn'>
             <h1>Discover your true style </h1>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-              <button className='btn-nav'><strong>Lear More</strong> <FaArrowRight/> </button>
+              <div className='btn-arrow'>
+                <button className='btn-nav'>lear More <FaArrowRight/> </button>
+              </div>
             </div>
             
           </div>

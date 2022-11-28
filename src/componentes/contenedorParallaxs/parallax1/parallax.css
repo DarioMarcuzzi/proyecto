@@ -79,7 +79,6 @@ html {
   margin-bottom: 0px;
   font-size: 30px;
 }
-
 .caption1 p {
   color: gray;
 }
@@ -90,7 +89,6 @@ html {
   color: rgba(0, 0, 0, 0.65);
   align-items: center;
   gap: 5px;
-  width: 100%;
   position: relative;
 }
 
@@ -185,3 +183,13 @@ html {
   flex-direction: column;
   padding: 0.200px;
 }
+.btn-arrow{
+  display: flex;
+  justify-content: end;
+  color: rgba(0, 0, 0, 0.65);
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  position: relative;
+}
+.btn-more{}

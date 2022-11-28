@@ -71,4 +71,8 @@ html{
   width: 100%;
   position: relative;
 }
+.btn-arrow button{
+  gap: 5px;
+}
+
 
