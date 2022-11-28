@@ -30,7 +30,6 @@ export function Footer () {
                   <p>Pico Truncado</p>
                 </div>
                 <div></div>
-
               </div>
               <div className='footer-logo'>
                 <img src='https://conceptslife.com/wp-content/uploads/2020/05/cropped-logo_concepts-life_home.png' alt='logo-concepts' width="384px" height="102px" />
@@ -39,7 +38,6 @@ export function Footer () {
               <p>
                 Todos los derechos reservados 2022 Dario Marcuzzi
               </p>
-
           </div>
         </div>
         <div className='footer-der'>
