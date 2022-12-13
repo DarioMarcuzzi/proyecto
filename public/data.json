@@ -1,0 +1,62 @@
+{
+  "carta":{
+    "id": 1,
+    "title":"Retro: Old is New Again",
+    "descripcion":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry' Lorem Ipsum is simply dummy text of the printing and",
+    "buttonName": "lear More"
+  },
+  "home":{
+    "id":2,
+    "img":"https://esdi.es/wp-content/uploads/2018/03/pexels-photo-245208-700x505.jpeg"
+  },
+
+  "parallaxA" :[
+    {"id":"A",
+    "image":"https://www.hogarmania.com/archivos/202206/plantas-para-refrescar-el-hogar-668x400x80xX-1.jpg"}
+    ,
+    {"id":"B",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR79UjeyT7UDJxaFSMC1DpxAcpBP1MaqcS8Pwi2W2Bn0m29SW4IZ_GR0YnW3qIbYgChwtA&usqp=CAU"}
+    ,
+    {"id":"C",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCAdlKPZXtqv9233cCBkg6V1Qq-sbn2DO1_TWOaS23eZO_US9Bv7n3WA8kDUMDcjflY-c&usqp=CAU"}
+    ,
+    {"id":"D",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkuxKGWLKOXqz6eG36yc2mtoJQiPGzGqysB-0FIk3Jt50H-yz6-0tEOnqVrwJfQGzeHI0&usqp=CAU"}
+    ,
+    {"id":"E",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgLteW3aBdZKYxOfXMQrQl4EXIVgopTi484pW8v6CC31HNDuTyDWTx1QlHfPOcHAHFNJM&usqp=CAU"}
+    ,
+    {"id":"F",
+    "image":"https://images.hola.com/imagenes/estar-bien/20180319121774/plantas-interior-energia-positiva/0-551-109/plantas-energia-positiva-casa-t.jpg"}
+    ,
+    {"id":"G",
+    "image":"https://www.elmueble.com/medio/2022/07/19/espatifilo-una-planta-de-interior-para-casas-con-poca-luz-ca8b6433-800x1200_138c5494_800x1200.jpg"}
+
+  ],
+  
+
+  "parallax2":{
+    "id":4,
+    "article":{
+      "id":"H",
+      "image":"https://www.lamansiondelasideas.com/wp-content/uploads/2022/06/Decoracio%CC%81n-patio-pequen%CC%83o.jpg.webp"
+    }
+  },
+  "parallax3":[
+
+    {
+      "id":"I",
+      "image":"https://www.guiadejardineria.com/wp-content/uploads/2014/04/estanques-en-el-jardin-1.jpg"
+    },
+    {
+      "id":"J",
+      "image":"https://casaydiseno.com/wp-content/uploads/2015/04/sombrilla-mesa-sillas-acero-ideas.jpg"
+    },
+    {
+      "id":"K",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfZI4WYlEuaHoVSO8lCc56uieEPZ67qDD7Vg&usqp=CAU"
+    }
+  
+]
+
+}
